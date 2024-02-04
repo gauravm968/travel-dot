@@ -21,9 +21,14 @@
     --inputColor: rgb(239, 239, 239);
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
+    --cardHover: rgb(255, 255, 255);
 }
 
-/* -- this is a default styling start -- */
+/* -- this is a default styling (start) -- */
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }
@@ -84,5 +89,19 @@ input{
 
 body{
     background: var(--bodyColor);
+    /* background: red; */
 }
-/* -- default styling end -- */
+
+/* ----------- MEDIA QUERIES ---------------- */
+@media screen and (min-width: 1240px){
+    .container{
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    body{
+        zoom: 1.7;
+    }
+}

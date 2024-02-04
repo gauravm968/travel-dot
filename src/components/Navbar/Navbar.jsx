@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TbGridDots } from "react-icons/tb";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
-import './Navbar.scss';
+import './Navbar.css';
 
 export default function Navbar() {
   const [active, setActive] = useState('navbar');
