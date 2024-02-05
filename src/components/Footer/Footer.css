@@ -15,8 +15,7 @@
 }
 .footer .videoDiv video {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .footer .videoDiv::after {
   content: "";
@@ -241,4 +240,5 @@
     font-size: 16px;
     padding: 5px 0;
   }
-}/*# sourceMappingURL=Footer.css.map */
+}
+/*# sourceMappingURL=Footer.css.map */

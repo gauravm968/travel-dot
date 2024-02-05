@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
   
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box; 
-    font-family: 'Poppins', sans-serif;
-    /* font-weight: 300-700; */
-}
-
 /* colors and styling */
 :root{
     --primaryColor: hsl(199, 100%, 33%);
@@ -22,6 +14,14 @@
     --bodyColor: rgb(240, 240, 246);
     --cardBG: rgb(225, 225, 235);
     --cardHover: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 300-700; */
 }
 
 /* -- this is a default styling (start) -- */
@@ -89,7 +89,6 @@ input{
 
 body{
     background: var(--bodyColor);
-    /* background: red; */
 }
 
 /* ----------- MEDIA QUERIES ---------------- */
