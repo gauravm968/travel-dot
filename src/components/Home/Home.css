@@ -174,7 +174,7 @@
 }
 @media screen and (min-width: 1240px) {
   .home {
-    height: 95vh;
+    height: 100vh;
   }
   .home .homeContent {
     padding-left: 0;
